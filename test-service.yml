@@ -1,5 +1,4 @@
 spring:
-  profiles: production
   jpa:
     database: MYSQL
     hibernate:
@@ -12,7 +11,9 @@ spring:
 myProperty: bla-bla-bla
 ---
 spring:
+  profiles: production
+myProperty: bla-bla-bla from production
+---
+spring:
   profiles: development
-server:
-  port: 9000
 myProperty: bla-bla-bla from development
