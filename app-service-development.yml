@@ -1,7 +1,6 @@
-spring:
-  profiles: development
 myProperty: bla-bla-bla
 spring:
+  profiles: development
   jpa:
     database: MYSQL
     hibernate:
