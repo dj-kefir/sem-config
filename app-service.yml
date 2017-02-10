@@ -1,6 +1,6 @@
 info:
   component: App service v1.0
-myProperty: bla-bla-bla
+myProperty: bla-bla-bla+
 spring:
   jpa:
     database: MYSQL
